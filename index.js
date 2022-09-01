@@ -206,7 +206,6 @@ async function mergeSort(arr) {
       j++;
     }
 
-    //visualize it for right and left side
     bars[k].style.height = arr[k] * heightFactor + "px";
     bars[k].style.backgroundColor = "lightgreen";
     if (k + arr.length < bars.length) {
